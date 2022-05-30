@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.attribution{
+    font-size: 11px; text-align: center; 
+}
+.attribution a{
+    color: hsl(228, 45%, 44%); 
+}
+#nav svg{ 
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+}  
+#left, #left1{
+    float: right;
+    padding-right: 7px;
+} 
+#left, #left1{
+    display: inline-block;
+}
+#left button{
+    height: 40px;
+    width: 100px;
+    margin-top: -10px;
+    background-color: transparent;
+    border-color: hsl(0, 0%, 41%);
+    border-style: solid;
+    outline: thin;
+    border-radius: 15px;
+    color: hsl(0, 0%, 41%);
+}
+#left button:hover{
+    border-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+#nav {
+    color: white;
+    width: 100%;
+}
+.nav {
+    float: center;
+    list-style: none;    
+    text-align: left;
+    /*padding: 0px -10px 0px -10px; */
+    margin: 10px;
+}
+.nav li {                                                             /*max-width: 768px*/
+    display:Inline-block;
+    padding: 10px 9px 10px 9px;       
+    margin-top: 13px;
+    margin-left: 30px;                     /*nav bar text*/
+}  
+.nav li a {                                               
+   text-decoration: none;
+   color: hsl(0, 0%, 41%);
+   font-size: 14px;
+   padding: 5px 0px 5px 0px
+}
+.nav li a:hover{
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+.nav li a svg{
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    top: .125em;
+}
+.container{
+    margin: 140px;
+}
+.container h1{
+    margin-bottom: 40px;
+    font-size: 80px;
+}
+.container p{
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    margin-bottom: 40px;
+}
+.container button{
+    height: 47px;
+    width: 140px;
+    border: hsl(0, 0%, 8%);
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+.container button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 8%);
+    border: solid;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+.container img{
+    height: 590px;
+    margin-top: -85px;
+    float: right;
+}
+.container .client{
+    list-style: none;
+}
+.container .client li{
+    display: inline-block;
+    padding: 10px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+.show{
+    display: block;
+}
